@@ -1,0 +1,42 @@
+.login-div {
+  max-width: 600px;
+  min-width: 300px;
+}
+.login-div .sub-title {
+  font-size: 22px;
+}
+.login-div button {
+  background-color: #721e7e;
+  border: 1px solid white;
+}
+.login-div button:hover {
+  background-color: #721e7e;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.login-div button:hover,
+.login-div button:active:focus,
+.login-div button:active,
+.login-div button:disabled,
+.login-div button:focus {
+     background-color: #470850 !important ;
+      border: 1px solid white !important ;
+      box-shadow: none !important;
+      outline: none !important ;
+      cursor: pointer;
+}
+.loginForget .loginForgetLink{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+.loginForget .loginForgetLink:hover{
+  color: rgb(0, 110, 255) ;
+}
+.loginForget .line{
+  text-decoration: none;
+  color: white;
+  margin:0px 5px ;
+}

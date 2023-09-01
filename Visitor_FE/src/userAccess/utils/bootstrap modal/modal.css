@@ -1,0 +1,45 @@
+.modal-content {
+  border-radius: 0px;
+}
+.modal-body {
+  border: none;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.modal-header {
+  background-color: #721e7e;
+  border-radius: 0;
+  border: none;
+}
+.modal-footer {
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+.modal-footer button {
+  margin: 0px;
+  display: block;
+  border: 1px solid white;
+}
+
+.modal-footer > button:first-child {
+    background-color: #721e7e;
+}
+.modal-footer > button:first-child:active:focus,
+.modal-footer > button:first-child:focus,
+.modal-footer > button:first-child:active:focus,
+.modal-footer > button:first-child:hover
+ {
+    background-color: #721e7e;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.close {
+  display: none;
+}
+.modal-footer > :not(:last-child),
+.modal-footer > :not(:first-child) {
+  margin: 0;
+}
